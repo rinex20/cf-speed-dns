@@ -1,6 +1,8 @@
 name: 'dns_cf_push'
 # new
 on:
+  push:
+    branches: ["main"]
   schedule:
     - cron: '0 */6 * * *'
 
